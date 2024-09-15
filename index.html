@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porfolio</title>
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="general">
-      <div class="izq">
-        <img src="Assets/Images/pic.jpg" class="imgpic" alt="" />
-        <h3>David Sanchez</h3>
-        <p>DAW2 Front-end Developer</p>
-        <div class="menu">
-          <ul>
-            <a href=""><li>Inicio</li></a>
-            <a href=""><li>Sobre mi</li></a>
-            <a href=""><li>Formacion</li></a>
-            <a href=""><li>Mi Porfolio</li></a>
-            <a href=""><li>Contacto</li></a>
-          </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porfolio</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="general" id="inicio">
+    <div class="izq">
+      <img src="Assets/Images/pic.jpg" class="imgpic" alt="" />
+      <h3>David Sanchez</h3>
+      <p>DAW2 Front-end Developer</p>
+      <div class="menu">
+        <ul>
+          <a href="#inicio">
+            <li>Inicio</li>
+          </a>
+          <a href="#sobremi">
+            <li>Sobre mi</li>
+          </a>
+          <a href="#formacion">
+            <li>Formacion</li>
+          </a>
+          <a href="#miportfolio">
+            <li>Mi Porfolio</li>
+          </a>
+          <a href="#contacto">
+            <li>Contacto</li>
+          </a>
+        </ul>
       </div>
-      <div class="der">
-        <div class="primerbox">
-          <h1>Hola!!!</h1>
-          <h2>Soy Pepito Pérez</h2>
-          <p>aaaaaaaaaaaaaaaa</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut magnam
-            ab iure sequi odio ut officia saepe totam corrupti commodi. Ullam,
-            veniam repellendus! Ex libero aspernatur facilis minima non dicta!
-          </p>
-          <a href="">Sobre mi <i class="home__fas fas fa-user"></i></a>
-        </div>
-        <h2>Sobre <span class="verde">mi</span></h2>
-        <div class="sobrmei primerbox">
+    </div>
+    <div class="der">
+      <a class="arriba" href="#inicio"><img src="./Assets/Images/scroll-top-img.png" alt=""></a>
+      <div class="primerbox">
+        <h1>Hola!!!</h1>
+        <h2>Soy Pepito Pérez</h2>
+        <p>aaaaaaaaaaaaaaaa</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut magnam
+          ab iure sequi odio ut officia saepe totam corrupti commodi. Ullam,
+          veniam repellendus! Ex libero aspernatur facilis minima non dicta!
+        </p>
+        <a href="#inicio" class="botonsm">Sobre mi <i class="home__fas fas fa-user"></i></a>
+      </div>
+
+      <div class="primerbox">
+        <h2 id="sobremi">Sobre <span class="verde">mi</span></h2>
+        <div class="sobremi">
           <div class="sobremidatos">
             <p>Nombre : <span class="verde">David Sánchez</span></p>
             <p>Edad : <span class="verde">23</span></p>
@@ -47,83 +59,124 @@
             <p>Perfil : <span class="verde">Front-end Developer</span></p>
             <p>Idioma : <span class="verde">Ingles</span></p>
             <p>Hobbies : <span class="verde">Cazar gamusinos</span></p>
+            <a href="" class="cv">Descarga CV <i class="aboutdata__fas fas fa-download verde"></i></a>
           </div>
           <div class="sobremicartas">
             <div class="sobremicard">
-              <span>2+</span>
+              <span class="verde big">2+</span>
               <p>Años de Experiencia</p>
             </div>
             <div class="sobremicard">
-              <span>125+</span>
+              <span class="verde big">125+</span>
               <p>Proyectos Realizados</p>
             </div>
             <div class="sobremicard">
-              <span>30+</span>
+              <span class="verde big">30+</span>
               <p>Clientes</p>
             </div>
             <div class="sobremicard">
-              <span>2+</span>
+              <span class="verde big">2+</span>
               <p>Premios ganados</p>
             </div>
           </div>
         </div>
-        <h2>Mi <span class="verde">Formación</span></h2>
-        <div class="formacion primerbox">
-            <div class="formacioncard">
-              <h4>Bootcamp FullStack Developer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque voluptates ducimus doloribus sapiente asperiores cupiditate eveniet. Molestias aliquid possimus exercitationem illum nisi repudiandae eos quis culpa, vero excepturi minus.</p>
-            </div>
-            <div class="formacioncard">
-              <h4>Introduccion a JavaScript</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ut ea explicabo perspiciatis tempora ab blanditiis deserunt repellat nulla debitis voluptates in repudiandae dolore aspernatur, porro, praesentium eius accusantium. Nam!</p>
-            </div>
-            <div class="formacioncard">
-              <h4>Curso de HTML y CSS</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio autem deleniti velit assumenda ipsam. Quod enim quibusdam, ipsa debitis iusto deleniti sit illo, repellendus soluta corporis ad explicabo quas quae!</p>
-            </div>
-            <div class="formacioncard">
-              <h4>Tecnicas básicas HTML</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio autem deleniti velit assumenda ipsam. Quod enim quibusdam, ipsa debitis iusto deleniti sit illo, repellendus soluta corporis ad explicabo quas quae!</p>
-            </div>
-        </div>
-        <h2>Contacto</h2>
-        <div class="contacto primerbox">
-            <div class="contactodiv">
-                <div class="contactoflex">
-                    <p>
-                        <i class="fas fa-map-marker-alt"></i> davidsanchezdaw@gmail.com
-                    </p>          
-                    <p>
-                        <i class="fas fa-phone"></i> +34 685696774
-                    </p>
-                    <p>
-                        <i class="fas fa-phone"></i> +34 685696774
-                    </p>
-                    <p>
-                        <i class="fas fa-map-marker-alt"></i> Talavera de la Reina - Toledo
-                    </p>
-                </div>
-                <div class="contactoflex">
-                    <form action="">
-                        <input type="text" name="" id="" placeholder="Nombre">
-                        <input type="email" name="" id="" placeholder="Correo">
-                        <input type="text" name="" id="" placeholder="Proyecto">
-                        <textarea name="" id="" placeholder="Texto"></textarea>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div>
-            
-          <i class="home__fas fas fa-user"></i>
-          <i class="aboutdata__fas fas fa-download"></i>
-          <i class="fas fa-graduation-cap"></i>
-          <i class="fas fa-envelope"></i>
-          <i class="fas fa-phone"></i>
-          <i class="fas fa-map-marker-alt"></i>
-          <i class="fas fa-paper-plane"></i>
+
+      </div>
+
+      <div class="primerbox">
+        <h2 id="formacion">Mi <span class="verde">Formación</span></h2>
+        <div class="formacion">
+          <div class="formacioncard">
+            <h4>Bootcamp FullStack Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque voluptates ducimus doloribus
+              sapiente asperiores cupiditate eveniet. Molestias aliquid possimus exercitationem illum nisi repudiandae
+              eos quis culpa, vero excepturi minus.</p>
+          </div>
+          <div class="formacioncard">
+            <h4>Introduccion a JavaScript</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ut ea explicabo perspiciatis tempora ab
+              blanditiis deserunt repellat nulla debitis voluptates in repudiandae dolore aspernatur, porro, praesentium
+              eius accusantium. Nam!</p>
+          </div>
+          <div class="formacioncard">
+            <h4>Curso de HTML y CSS</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio autem deleniti velit assumenda
+              ipsam. Quod enim quibusdam, ipsa debitis iusto deleniti sit illo, repellendus soluta corporis ad explicabo
+              quas quae!</p>
+          </div>
+          <div class="formacioncard">
+            <h4>Tecnicas básicas HTML</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio autem deleniti velit assumenda
+              ipsam. Quod enim quibusdam, ipsa debitis iusto deleniti sit illo, repellendus soluta corporis ad explicabo
+              quas quae!</p>
+          </div>
         </div>
       </div>
+      <div class="primerbox">
+
+        <h2 id="miportfolio">Mi <span class="verde">Portfolio</span></h2>
+        <div class="portfolio">
+          <a href="" target="_blank">
+            <img src="./Assets/Images/claro.png" alt="Imagen Claro" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/floristeria.png" alt="Imagen Floristeria" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/mosca.png" alt="Imagen Mosca" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/oscuro.png" alt="Imagen Oscuro" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/paris.png" alt="Imagen Paris" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/pasteleria.png" alt="Imagen Pasteleria" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/toledo.png" alt="Imagen Toledo" class="imgport">
+          </a>
+          <a href="" target="_blank">
+            <img src="./Assets/Images/travels.png" alt="Imagen Travels" class="imgport">
+          </a>
+        </div>
+
+      </div>
+      <div class="contacto primerbox">
+        <h2 id="contacto">Contacto</h2>
+        <div class="contactodiv">
+          <div class="contactoflex">
+            <p>
+              <i class="fas fa-map-marker-alt"></i> davidsanchezdaw@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone"></i> +34 685696774
+            </p>
+            <p>
+              <i class="fas fa-phone"></i> +34 685696774
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Talavera de la Reina - Toledo
+            </p>
+          </div>
+          <div class="contactoflex">
+            <form action="">
+                <input type="text" name="" id="" placeholder="Nombre" required>
+                <input type="email" name="" id="" placeholder="Correo" required>
+                <input type="text" name="" id="" placeholder="Proyecto" required>
+                <textarea name="" id="" placeholder="Texto" rows="5" required></textarea>
+                <div class="button-container">
+                    <button type="submit" class="enviar">Enviar <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+        </div>
+      </div>
+      <div>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

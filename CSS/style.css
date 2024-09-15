@@ -1,10 +1,18 @@
+@font-face {
+    font-family: Lounge;
+    src: url(../Assets/Font/Lounge.otf);
+}
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin:0px;
     color: white;
     background-color: #101010;
+    font-family: Lounge;
 }
 .izq{
-    background-color: #181818;
+    background-color: #1A1A1A;
     display: flex;
     min-width: 300px;
     height: 100vh;
@@ -17,9 +25,8 @@ body{
     font-variant: small-caps;
 }
 .der{
-    background-color: #101010;
+    background-color: #111111;
     display: flex;
-    /* padding: 40px; */
     flex-direction: column;
 }
 .general{
@@ -32,7 +39,7 @@ body{
 }
 li{
     list-style: none;
-    background-color: grey;
+    background-color: #333333;
     border-radius: 10px;
     padding: 10px;
     margin: 7px 0px;
@@ -45,12 +52,11 @@ ul{
     margin: 0px;
 }
 a{
-    width: 100%;
     text-decoration: none;
     color: white;
 }
 li:hover{
-    background-color: #696969;
+    background-color: rgb(130, 158, 88);
 }
 .menu{
     width: 200px;
@@ -101,11 +107,10 @@ i{
     color: greenyellow;
 }
 .sobremicard{
-    background-color: grey;
+    background-color: #333333;
     width: 100px;
     height: 100px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -113,6 +118,14 @@ i{
 .sobremicartas{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+}
+.sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 .sobremidatos{
 
@@ -122,8 +135,92 @@ i{
 }
 .primerbox{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
     padding: 0px 50px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.imgport{
+    width: 250px;
+    height: 125px;  
+    transition: transform 0.5s ease;
+    object-fit: cover;
+}
+.imgport:hover{
+    transform: scale(1.2);
+}
+.xd{
+    display: flex;
+    width: 0%;
+}
+
+h2{
+    padding-top: 100px;
+}
+.botonsm{
+    background-color: #333333;
+    padding: 6px 16px;
+    width: 77px;
+    border-radius: 15px;
+}
+.botonsm:hover{
+    background-color: rgb(130, 158, 88);;
+}
+.arriba{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 1;
+    transition: transform 0.25s ease-in;
+}
+.arriba:hover{
+    transform: scale(1.2);
+}
+.big{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cv{
+    background-color: #333333;
+    padding: 7px 30px;
+    border-radius: 15px;
+}
+.cv:hover{
+    background-color: rgb(130, 158, 88);
+}
+.enviar {
+    background-color: #333333;
+    padding: 7px 30px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.enviar:active{
+    border: 2px solid rgb(130, 158, 88);
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start; 
+}
+input:focus{
+    border: 2px solid rgb(130, 158, 88);
+    outline: 2px solid white;
+}
+input{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+textarea:focus{
+    border: 2px solid rgb(130, 158, 88);
+    outline: 2px solid white;
 }
