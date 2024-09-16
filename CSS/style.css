@@ -63,12 +63,10 @@ li:hover{
 }
 .contactodiv{
     display: flex;
-    max-width: 700px;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
 }
 form{
     display: flex;
@@ -94,6 +92,7 @@ form{
     padding-left: 30px;
 }
 .formacion{
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -141,6 +140,7 @@ i{
     padding: 0px 50px;
 }
 .portfolio{
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -223,4 +223,55 @@ textarea{
 textarea:focus{
     border: 2px solid rgb(130, 158, 88);
     outline: 2px solid white;
+}
+.padding0{
+    padding-top: 0px;
+}
+.name{
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+.globo{
+    background-color: greenyellow;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -26px;
+    left: -62px;
+    z-index: 1;
+
+}
+.negro{
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.up{
+    position: relative;
+    top: -68px;
+    left: 0px;
+    z-index: 2;
+}
+.año{
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px 0px;
+    position: relative;
+    top: 8px;
+    left: 30px;
+    z-index: 3;
+}
+.añotxt{
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
